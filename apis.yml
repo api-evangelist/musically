@@ -1,8 +1,23 @@
 aid: musically
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/musically.png
 name: musical.ly
-description: 'musical.ly is a company surfaced as a portfolio company of greylock and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'musical.ly was a short-form lip-sync and music video social app, popular 2014-2018, that
+  was acquired by ByteDance and merged into TikTok on 2 August 2018. The service and brand are defunct.
+  It never published an official first-party public API, developer portal, SDKs, or OpenAPI; the only
+  known interfaces are unauthorized community reverse-engineering projects. It was surfaced as a Greylock
+  portfolio company and added to the API Evangelist network as a stub. An enrichment pass on 2026-07-20
+  found no first-party API surface to profile.'
 url: https://raw.githubusercontent.com/api-evangelist/musically/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +25,26 @@ x-backed-by:
 - greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct:
+  acquired-by: ByteDance
+  merged-into: TikTok
+  date: '2018-08-02'
+x-api-surface: none
+x-api-surface-note: 'No first-party public API, developer portal, SDKs, or OpenAPI. Only unauthorized
+  community reverse-engineering projects exist. The registered website (musicallyvideos.com) is an
+  unaffiliated third-party fan site.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Social Media
+- Short Video
+- Music
+- Mobile
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,8 @@ maintainers:
 common:
 - type: Website
   url: https://musicallyvideos.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
