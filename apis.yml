@@ -34,7 +34,7 @@ x-api-surface: none
 x-api-surface-note: 'No first-party public API, developer portal, SDKs, or OpenAPI. Only unauthorized
   community reverse-engineering projects exist. The registered website (musicallyvideos.com) is an
   unaffiliated third-party fan site.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
