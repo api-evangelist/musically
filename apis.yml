@@ -51,11 +51,12 @@ modified: '2026-07-20'
 tags:
 - Company
 - Consumer
-- Social-Media
+- Social Media
 - Short Video
 - Music
 - Mobile
 - Defunct
+- Acquired
 tags_raw:
 - Company
 - Consumer
@@ -64,6 +65,8 @@ tags_raw:
 - Music
 - Mobile
 - Defunct
+- Social-Media
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -76,10 +79,9 @@ common:
   name: ByteDance
   x-relationship: acquired
   x-evidence: "ly was a short-form lip-sync and music video social app, popular 2014-2018, that was acquired by ByteDance and merged into TikTok on 2 August 2018."
-- type: Website
-  url: https://musicallyvideos.com/
 x-enrichment:
   date: '2026-07-20'
   status: nochange
   artifacts_added: 0
   pass: local-v1
+x-acquired-by: bytedance
